@@ -70,7 +70,7 @@ img[src$="svg"] {
   border: 2px solid var(--color-highlight);
   border-radius: 10px;
   font-weight: bold;
-  color: black;
+  color: #4987e8;
   cursor: pointer;
   background-color: var(--color-highlight-light) transition;
   background-color: 300ms ease;
