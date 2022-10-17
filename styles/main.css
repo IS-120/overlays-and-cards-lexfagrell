@@ -88,11 +88,13 @@ a[href]:hover {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/hero768.jpg);
   position: relative;
   text-align: center;
   color: white;
+}
+.hero img {
+  height: 100vh;
+  object-fit: cover;
 }
 
 .hero h1 {
@@ -150,7 +152,7 @@ a[href]:hover {
 }
 .page[href]:hover {
   text-decoration: underline;
-  color: #000;
+  color: var(--color-highlight-light);
 }
 
 ul {
