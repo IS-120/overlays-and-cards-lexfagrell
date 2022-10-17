@@ -29,7 +29,7 @@ h1 {
 
 h2 {
   line-height: 1rem;
-  padding: 1rem;
+  margin: 2rem 0 0.5rem;
   font-family: "Bebas Neue";
   letter-spacing: 2px;
 }
@@ -170,4 +170,5 @@ ul {
   text-shadow: 2px 2px #000;
   letter-spacing: 5px;
   font-family: "Bebas Neue";
+  padding: 1rem;
 }
