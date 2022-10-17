@@ -132,3 +132,29 @@ img[src$="svg"] {
   margin: 0%;
   padding: 0%;
 }
+
+.menu {
+  text-decoration: none;
+  color: #fff;
+}
+.menu:hover {
+  background-color: #111;
+}
+ul,
+li {
+  list-style: none;
+  font-weight: bold;
+  margin: auto;
+  overflow: hidden;
+  background-color: #333;
+  color: #fff;
+  width: auto;
+}
+.ul {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+.ul:hover {
+  background-color: #111;
+}
