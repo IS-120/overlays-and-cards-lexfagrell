@@ -37,34 +37,45 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="msapplication-config" content="./images/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/main.css" />
   </head>
 
   <body>
-    <section>
-      <div class="hero">
-        <picture>
-          <source media="(min-width: 768px)" srcset="images/hero768.jpg" />
-          <source media="(min-width: 1920px)" srcset="images/hero1920.jpg" />
-          <source media="(min-width: 380px)" srcset="images/hero380.jpg" />
-          <img
-            src="images/hero768.jpg"
-            alt="Pot and hand holding cooking utensils with spices"
-          />
-        </picture>
-        <h1 class="title">Lexy's Lunch</h1>
-        <h3 class="title">Eat for fun! Fun for eat!</h3>
-      </div>
-      <header>
-        <nav>
-          <ul class="ul">
-            <li class="menu">Home</li>
-            <li><a class="menu" href="./about/index.html"> About </a></li>
-            <li><a class="menu" href="./contact/index.html"> Contact </a></li>
-          </ul>
-        </nav>
-      </header>
+    <section class="hero">
+      <picture>
+        <source media="(min-width: 768px)" srcset="images/hero768.jpg" />
+        <source media="(min-width: 1920px)" srcset="images/hero1920.jpg" />
+        <source media="(min-width: 380px)" srcset="images/hero380.jpg" />
+        <img
+          class="pot"
+          src="images/hero768.jpg"
+          alt="Pot and hand holding cooking utensils with spices"
+        />
+      </picture>
+      <h1 class="title">Lexy's Lunches</h1>
+      <p class="subtitle">Recipes, Grocery Lists & More</p>
     </section>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="page" href="#">Home</a></li>
+          <li><a class="page" href="./about/index.html">About</a></li>
+          <li><a class="page" href="./contact/index.html">Contact </a></li>
+        </ul>
+      </nav>
+    </header>
     <section class="cards">
       <a class="card1">
         <img
@@ -72,7 +83,7 @@
           loading="lazy"
           alt="Air Friend Brussel Sprouts"
         />
-        <p class="inner-text">Air Fried Brussel Sprouts</p>
+        <p class="inner-text">Brussel Sprouts</p>
       </a>
       <a class="card1">
         <img
@@ -92,7 +103,7 @@
       </a>
     </section>
     <main>
-      <h2>Lunch of the Day</h2>
+      <h2 class="lunch">LUNCH OF THE DAY</h2>
       <article>
         <h2>Orange Chicken with Jasmine Rice</h2>
         <figure>
@@ -100,7 +111,6 @@
             src="images/orangechicken.jpg"
             alt="PlateofOrangeChickenwithRice"
           />
-          <figcaption>Plate of Orange Chicken with Rice</figcaption>
         </figure>
         <aside>
           <p>
@@ -117,6 +127,13 @@
       </article>
       <article>
         <h2>Chik Fil A Nuggets</h2>
+        <figure>
+          <img
+            src="images/chicken900.jpg
+          "
+            alt="ChikfilaChicken"
+          />
+        </figure>
         <footer>
           <p>
             Buy chik fila package from Walmart and Chikfila sauce. Then put the
