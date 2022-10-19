@@ -164,6 +164,8 @@ ul {
   margin: 0;
   justify-content: space-between;
   margin-bottom: 100px;
+  font-size: 30px;
+  padding: 1.5rem;
 }
 
 .lunch {
