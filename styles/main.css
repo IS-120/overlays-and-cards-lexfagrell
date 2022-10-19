@@ -98,10 +98,11 @@ a[href]:hover {
 }
 
 .hero h1 {
-  font-size: clamp(1rem, -0.875rem + 8.333333vw, 3.5rem);
+  font-size: clamp(10rem, -0.875rem + 8.333333vw, 20rem);
   text-shadow: 2px 2px #000;
   font-weight: bold;
   font-family: "Bebas Neue";
+  margin-top: 300px;
 }
 
 .hero-text {
@@ -111,8 +112,9 @@ a[href]:hover {
 }
 .cards {
   display: flex;
-  gap: 1rem;
-  width: 100%;
+  gap: 3rem;
+  width: 75%;
+  margin: auto;
 }
 
 .card {
@@ -161,16 +163,17 @@ ul {
   display: flex;
   margin: 0;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .lunch {
   text-align: center;
   background-color: #4987e8;
-  width: 100%;
+  width: 75%;
   color: white;
   text-shadow: 2px 2px #000;
   letter-spacing: 5px;
   font-family: "Bebas Neue";
+  margin: 100px;
   padding: 1rem;
 }
